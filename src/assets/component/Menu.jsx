@@ -1,4 +1,3 @@
-import React from "react";
 import Meal from "./Meal";
 
 function Menu() {
@@ -6,7 +5,7 @@ function Menu() {
     <>
       <div className="my-[100px] text-stone-700">
         <div className="flex justify-center ">
-          <h1 className="border-b-2 border-t-2 border-solid border-stone-500  text-center text-xl">
+          <h1 className="mb-[40px] border-b-2 border-t-2 border-solid border-stone-500 text-center text-xl">
             OUR MENU
           </h1>
         </div>
@@ -19,7 +18,7 @@ function Menu() {
             price="7000"
           />
           <Meal
-            photoname="/images/pounded-yam-with-egusi-soup.jpg"
+            photoname="/images/Iyan with egusi soup.jpg"
             photoalt="pounded-yam-with-egusi-soup image"
             mealName="Pounded yam"
             mealCombination="Pounded yam with egusi soup"
