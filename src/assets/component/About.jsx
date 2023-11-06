@@ -1,10 +1,10 @@
 function About() {
   return (
     <>
-      <section id="about" className="py-16">
-        <div className="container m-auto rounded-md bg-[#004200] p-[30px]">
+      <section id="about" className="max-w-[200px]">
+        <div className="container m-auto max-w-[100%] rounded-lg bg-[#004200] p-[30px] text-[#e6eff9]">
           <h2 className="mb-2 text-2xl font-bold">About Us</h2>
-          <p className="">
+          <p className="text-md">
             At Naija Kitchen, we're passionate about bringing the heart of
             Nigeria's culinary heritage to your plate. Our mission is to serve
             you the most authentic Nigerian dishes, prepared with love and
