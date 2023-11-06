@@ -1,9 +1,12 @@
 function NavBar() {
   return (
     <>
-      <nav className="text-[ #e6eff9] mx-auto bg-[#004200] p-4  ">
-        <div className="container mx-auto flex items-center justify-between">
-          <a href="#" className="text-[ #e6eff9] text-xl font-bold">
+      <nav className="fixed mx-auto w-full bg-[#004200]  p-4 text-[#e6eff9]">
+        <div className="container flex items-center justify-between">
+          <a
+            href="#"
+            className="text-[ #e6eff9] text-xl font-bold tracking-widest"
+          >
             Naija Kichen
           </a>
           <ul className="flex space-x-5">
