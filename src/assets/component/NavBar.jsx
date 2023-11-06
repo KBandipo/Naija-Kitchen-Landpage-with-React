@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <>
-      <nav className="fixed mx-auto w-full bg-[#004200]  p-4 text-[#e6eff9]">
+      <nav className="fixed z-[50] mx-auto w-full bg-[#004200] p-4 text-[#e6eff9]">
         <div className="container flex items-center justify-between">
           <a
             href="#"
@@ -9,6 +9,13 @@ function NavBar() {
           >
             Naija Kichen
           </a>
+          <form>
+            <input
+              placeholder="Search order #"
+              className="text-semi w-28 rounded-md px-2 text-stone-900"
+              type="text"
+            />
+          </form>
           <ul className="flex space-x-5">
             <li>
               <svg

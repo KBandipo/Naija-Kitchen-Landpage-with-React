@@ -3,7 +3,7 @@ import React from "react";
 function WelcomeMessage() {
   return (
     <>
-      <div className="container m-20 my-auto w-[50%] rounded-md bg-[#004200] p-[30px] text-center text-[#e6eff9]">
+      <div className="container m-20 my-auto w-[50%] rounded-md bg-[#0042009f] p-[30px] text-center text-[#e6eff9]">
         <div className="container ">
           <h1 className=" mx-auto mb-4 text-4xl font-extrabold">
             Discover the Soul of Nigeria on Your Plate
