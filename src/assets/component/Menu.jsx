@@ -22,7 +22,7 @@ function Menu() {
           photoalt="pounded-yam-with-egusi-soup image"
           mealName="Pounded yam"
           mealCombination="Pounded yam with egusi soup"
-          price="10000"
+          price="8000"
         />
 
         <Meal
@@ -30,7 +30,14 @@ function Menu() {
           photoalt="Ekuru image"
           mealName="Ekuru"
           mealCombination="Ekuru with stew"
-          price="6000"
+          price="7000"
+        />
+        <Meal
+          photoname="/images/eba.jpg"
+          photoalt="Eba image"
+          mealName="Eba"
+          mealCombination="Eba with Efo-riru"
+          price="8000"
         />
       </div>
     </>
