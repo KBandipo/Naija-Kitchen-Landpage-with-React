@@ -8,8 +8,9 @@ function Meal(props) {
           className="h-[300px] w-[60%] rounded-md object-cover "
         />
         <div className="w-[35%]">
-          <h2 className="text-lg font-bold"> {props.mealName}</h2>
-          <p>{props.mealCombination}</p>
+          <h2 className="mb-[5px] text-lg font-bold"> {props.mealName}</h2>
+          <p className="font-semibold">Contents</p>
+          <h3 className="mb-[5px]">{props.mealCombination}</h3>
           <p className="font-semibold">
             <span>Price: </span> N{props.price}
           </p>
