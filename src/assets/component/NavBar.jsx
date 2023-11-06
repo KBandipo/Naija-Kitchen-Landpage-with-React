@@ -5,7 +5,7 @@ function NavBar() {
         <div className="container flex items-center justify-between">
           <a
             href="#"
-            className="text-[ #e6eff9] text-xl font-bold tracking-widest"
+            className="text-[ #e6eff9] text-3xl font-bold tracking-widest"
           >
             Naija Kichen
           </a>
