@@ -10,7 +10,13 @@ function Menu() {
             OUR MENU
           </h1>
         </div>
-        <Meal />
+        <Meal
+          photoname="/images/amala.jpg"
+          photoalt="amala with ewedu and gbediri image"
+          mealName="Amala"
+          mealCombination="Amala ewedu and gbegiri"
+          price="5000"
+        />
       </div>
     </>
   );
