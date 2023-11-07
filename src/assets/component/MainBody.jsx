@@ -4,7 +4,7 @@ import Menu from "./Menu";
 
 function MainBody() {
   return (
-    <main id="home" className="grid grid-cols-[1fr_auto]">
+    <main id="home" className="grid-cols-[1fr_auto] md:grid">
       <div>
         <HeroSection />
         <Menu />

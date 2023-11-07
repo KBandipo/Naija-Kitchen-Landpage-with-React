@@ -3,7 +3,7 @@ import Meal from "./Meal";
 function Menu() {
   return (
     <div id="menu">
-      <div className="mx-auto my-[300px] max-w-screen-lg px-4 text-stone-700 md:my-[150px]">
+      <div className="mx-auto mt-[150px] max-w-screen-lg px-4 text-stone-700 md:mt-[100px]">
         <div className="flex justify-center ">
           <h1 className=" mb-10 border-b-2 border-t-2 border-solid border-stone-500 text-center text-2xl md:mb-16 md:text-4xl">
             OUR MENU
