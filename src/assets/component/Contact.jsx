@@ -1,12 +1,9 @@
 function Contact() {
   return (
-    <section
-      id="contact"
-      className="mx-auto bg-[#004200] py-8 text-[#e6eff9] sm:py-16"
-    >
+    <section className="mx-auto bg-[#004200] py-8 text-[#e6eff9] sm:py-16">
       <div className="container mx-auto">
         <h2 className="mb-2 mb-4 pb-[10px] text-2xl font-bold">Contact Us</h2>
-        <form>
+        <form id="contact">
           <div className="mb-4">
             <label htmlFor="name" className="block">
               Name
@@ -41,9 +38,9 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="rounded bg-[#e6eff9] px-4 py-2 text-[#004200] hover:bg-[#e6eff9] hover:font-semibold hover:italic hover:text-[#004200]"
+            className="rounded bg-[#e6eff9] px-4 py-2 text-[#004200] hover:bg-[#e6eff9] hover:font-semibold hover:italic hover:text-[#004200] active:font-bold"
           >
-            Send Message
+            CONTACT
           </button>
         </form>
       </div>
