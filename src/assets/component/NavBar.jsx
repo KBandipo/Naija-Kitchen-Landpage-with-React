@@ -1,12 +1,22 @@
 function NavBar() {
   return (
     <>
-      <nav className="text-[ #e6eff9] mx-auto bg-[#004200] p-4  ">
-        <div className="container mx-auto flex items-center justify-between">
-          <a href="#" className="text-[ #e6eff9] text-xl font-bold">
+      <nav className="fixed z-[50] mx-auto w-full bg-[#004200] p-4 text-[#e6eff9]">
+        <div className="container flex items-center justify-between">
+          <a
+            href="#"
+            className="text-[ #e6eff9] text-3xl font-bold tracking-widest"
+          >
             Naija Kichen
           </a>
-          <ul className="flex space-x-5">
+          <form className="hidden md:block">
+            <input
+              placeholder="Search order #"
+              className="text-semi w-28 rounded-md px-2 text-stone-900"
+              type="text"
+            />
+          </form>
+          <ul className="hidden space-x-5 md:flex">
             <li>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,6 +96,24 @@ function NavBar() {
               </a>
             </li>
           </ul>
+          <div className="md:hidden">
+            <button className="text-[#e6eff9]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke=" #e6eff9"
+                className="h-6 w-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </nav>
     </>
