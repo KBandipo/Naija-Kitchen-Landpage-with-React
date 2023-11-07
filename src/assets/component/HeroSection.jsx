@@ -3,7 +3,7 @@ import WelcomeMessage from "./WelcomeMessage";
 function HeroSection() {
   return (
     <>
-      <div className="flex h-screen w-full bg-[url('/images/hero-food.jpg')] bg-cover bg-center bg-no-repeat pt-10 md:pt-20">
+      <div className="h-screen w-full bg-[url('/images/hero-food.jpg')] bg-cover bg-center bg-no-repeat pt-10 md:flex md:pt-20">
         <WelcomeMessage />
       </div>
     </>
