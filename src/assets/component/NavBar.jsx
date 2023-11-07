@@ -9,7 +9,7 @@ function NavBar() {
           >
             Naija Kichen
           </a>
-          <form>
+          <form className="hidden md:block">
             <input
               placeholder="Search order #"
               className="text-semi w-28 rounded-md px-2 text-stone-900"
