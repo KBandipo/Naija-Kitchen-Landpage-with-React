@@ -96,6 +96,24 @@ function NavBar() {
               </a>
             </li>
           </ul>
+          <div className="md:hidden">
+            <button className="text-[#e6eff9]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke=" #e6eff9"
+                className="h-6 w-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </nav>
     </>
