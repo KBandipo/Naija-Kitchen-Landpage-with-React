@@ -9,7 +9,8 @@ function Menu() {
             OUR MENU
           </h1>
         </div>
-        <div className="  grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+        <div className="  grid grid-cols-1 gap-8 md:grid-cols-2">
           <Meal
             photoname="/images/amala.jpg"
             photoalt="amala with ewedu and gbediri image"
