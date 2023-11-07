@@ -16,7 +16,7 @@ function NavBar() {
               type="text"
             />
           </form>
-          <ul className="flex space-x-5">
+          <ul className="hidden space-x-5 md:flex">
             <li>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
