@@ -3,13 +3,13 @@ import Meal from "./Meal";
 function Menu() {
   return (
     <div id="menu">
-      <div className="my-[100px] text-stone-700">
+      <div className="mx-auto my-[100px] max-w-screen-lg px-4 text-stone-700">
         <div className="flex justify-center ">
-          <h1 className="mb-[40px] border-b-2 border-t-2 border-solid border-stone-500 text-center text-xl">
+          <h1 className=" mb-10 border-b-2 border-t-2 border-solid border-stone-500 text-center text-2xl md:mb-16 md:text-4xl">
             OUR MENU
           </h1>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="  grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <Meal
             photoname="/images/amala.jpg"
             photoalt="amala with ewedu and gbediri image"
