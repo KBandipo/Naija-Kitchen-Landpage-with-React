@@ -2,7 +2,7 @@ function NavBar() {
   return (
     <>
       <nav className="fixed z-[50] mx-auto w-full bg-[#004200] p-4 text-[#e6eff9]">
-        <div className="container flex items-center justify-between">
+        <div className="container items-center justify-between text-center md:flex">
           <a
             href="#"
             className="text-[ #e6eff9] text-3xl font-bold tracking-widest"
