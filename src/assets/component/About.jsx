@@ -3,7 +3,7 @@ import Contact from "./Contact";
 function About() {
   return (
     <>
-      <section id="about" className="max-w-[200px] pt-[60px]">
+      <section id="about" className="z-[20] max-w-[200px] pt-[60px]">
         <div className="container m-auto max-w-[100%] bg-[#004200] p-[30px] text-[#e6eff9]">
           <h2 className="mb-2 pb-[10px] text-2xl font-bold">About Us</h2>
           <p className="text-md">
