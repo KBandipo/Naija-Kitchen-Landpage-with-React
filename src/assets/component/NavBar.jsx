@@ -11,6 +11,7 @@ function NavBar() {
           </a>
           <form className="hidden md:block">
             <input
+              id="order"
               placeholder="Search order #"
               className="text-semi w-28 rounded-md px-2 text-stone-900"
               type="text"
