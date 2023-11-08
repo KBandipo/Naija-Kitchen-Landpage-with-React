@@ -13,9 +13,8 @@ function WelcomeMessage() {
             dining experience. Step into a world of bold spices, aromatic
             dishes, and warm hospitality. We invite you to embark on a culinary
             journey that transcends borders, savoring the true essence of
-            Nigeria's diverse cuisine. Join us for an unforgettable adventure
-            through the heart of this beautiful nation, 'One plate at a time'.
-            Barka da zuwa! Nnọọ! Ẹ ku abọ! You are very welcome!
+            Nigeria's diverse cuisine. 'One plate at a time', Barka da zuwa!
+            Nnọọ! Ẹ ku abọ! You are very welcome!
           </p>
         </div>
       </div>
