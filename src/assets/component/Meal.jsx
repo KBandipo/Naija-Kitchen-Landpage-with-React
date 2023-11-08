@@ -4,7 +4,7 @@ function Meal(props) {
   const { photoname, photoalt, mealName, mealCombination, price } = props;
   return (
     <>
-      <div className="m-[20px] w-[400px] justify-between  overflow-hidden rounded bg-[#f7f7f7] p-4 shadow-lg hover:shadow-2xl lg:flex lg:w-[450px] lg:gap-[20px] ">
+      <div className="lg:max-Aw-[450px] m-[20px] max-w-[300px]  justify-between overflow-hidden rounded bg-[#f7f7f7] p-4 shadow-lg hover:shadow-2xl sm:max-w-[400px] lg:flex lg:gap-[20px] ">
         <img
           src={photoname}
           alt={photoalt}
