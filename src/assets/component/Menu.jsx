@@ -16,14 +16,14 @@ function Menu() {
               photoalt="amala with ewedu and gbediri image"
               mealName="Amala"
               mealCombination="Amala ewedu and gbegiri"
-              price="7000"
+              price={7000}
             />
             <Meal
               photoname="/images/Iyan with egusi soup.jpg"
               photoalt="pounded-yam-with-egusi-soup image"
               mealName="Pounded yam"
               mealCombination="Pounded yam with egusi soup"
-              price="8000"
+              price={10000}
             />
 
             <Meal
@@ -31,14 +31,14 @@ function Menu() {
               photoalt="Ekuru image"
               mealName="Ekuru"
               mealCombination="Ekuru with stew"
-              price="7000"
+              price={8000}
             />
             <Meal
               photoname="/images/eba.jpg"
               photoalt="Eba image"
               mealName="Eba"
               mealCombination="Eba with Efo-riru"
-              price="8000"
+              price={7000}
             />
           </div>
         </div>
