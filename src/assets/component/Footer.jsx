@@ -7,9 +7,7 @@ function Footer() {
   return (
     <footer className="text-[ #e6eff9] mx-auto bg-[#004200] ">
       <h1 className="text-center">
-        {" "}
-        Local Time:
-        {presentTime}, {new Date().toDateString()},
+        Local Time {presentTime}, {new Date().toDateString()},
         {isOpen ? (
           <p>We are open until {closeHour + 1}:00HR. Come visit us to order</p>
         ) : (
