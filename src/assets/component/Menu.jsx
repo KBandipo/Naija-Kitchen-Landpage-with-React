@@ -41,35 +41,9 @@ function Menu() {
         </div>
         <div className="container mx-auto">
           <div className="  grid grid-cols-1 gap-8 md:grid-cols-2">
-            <Meal
-              photoname="/images/amala.jpg"
-              photoalt="amala with ewedu and gbediri image"
-              mealName="Amala"
-              mealCombination="Amala ewedu and gbegiri"
-              price={7000}
-            />
-            <Meal
-              photoname="/images/Iyan with egusi soup.jpg"
-              photoalt="pounded-yam-with-egusi-soup image"
-              mealName="Pounded yam"
-              mealCombination="Pounded yam with egusi soup"
-              price={10000}
-            />
-
-            <Meal
-              photoname="/images/Ekuru.jpg"
-              photoalt="Ekuru image"
-              mealName="Ekuru"
-              mealCombination="Ekuru with stew"
-              price={8000}
-            />
-            <Meal
-              photoname="/images/eba.jpg"
-              photoalt="Eba image"
-              mealName="Eba"
-              mealCombination="Eba with Efo-riru"
-              price={7000}
-            />
+            {meals.map((meal) => (
+              <Meal mealObj={meal} key={meal.mealName} />
+            ))}
           </div>
         </div>
       </div>
