@@ -2,10 +2,10 @@ function NavBar() {
   return (
     <>
       <nav className="fixed z-[50] mx-auto w-full bg-[#004200] p-4 text-[#e6eff9]">
-        <div className="container flex items-center justify-between">
+        <div className="container   flex  items-center justify-between">
           <a
             href="#"
-            className="text-[ #e6eff9] text-3xl font-bold tracking-widest"
+            className="text-[ #e6eff9] text-3xl font-bold tracking-widest "
           >
             Naija Kichen
           </a>
@@ -103,13 +103,13 @@ function NavBar() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#e6eff9"
-                class="h-6 w-6"
+                className="h-6 w-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                 />
               </svg>
