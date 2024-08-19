@@ -1,4 +1,34 @@
 import Meal from "./Meal";
+const meals = [
+  {
+    photoname: "/images/amala.jpg",
+    photoalt: "amala with ewedu and gbediri image",
+    mealName: "Amala",
+    mealCombination: "Amala ewedu and gbegiri",
+    price: 7000,
+  },
+  {
+    photoname: "/images/Iyan with egusi soup.jpg",
+    photoalt: "pounded-yam-with-egusi-soup image",
+    mealName: "Pounded yam",
+    mealCombination: "Pounded yam with egusi soup",
+    price: 10000,
+  },
+  {
+    photoname: "/images/Ekuru.jpg",
+    photoalt: "Ekuru image",
+    mealName: "Ekuru",
+    mealCombination: "Ekuru with stew",
+    price: 8000,
+  },
+  {
+    photoname: "/images/eba.jpg",
+    photoalt: "Eba image",
+    mealName: "Eba",
+    mealCombination: "Eba with Efo-riru",
+    price: 7000,
+  },
+];
 
 function Menu() {
   return (
