@@ -6,6 +6,7 @@ const meals = [
     mealName: "Amala",
     mealCombination: "Amala ewedu and gbegiri",
     price: 7000,
+    soldOut: false,
   },
   {
     photoname: "/images/Iyan with egusi soup.jpg",
@@ -13,6 +14,7 @@ const meals = [
     mealName: "Pounded yam",
     mealCombination: "Pounded yam with egusi soup",
     price: 10000,
+    soldOut: false,
   },
   {
     photoname: "/images/Ekuru.jpg",
@@ -20,6 +22,7 @@ const meals = [
     mealName: "Ekuru",
     mealCombination: "Ekuru with stew",
     price: 8000,
+    soldOut: false,
   },
   {
     photoname: "/images/eba.jpg",
@@ -27,6 +30,7 @@ const meals = [
     mealName: "Eba",
     mealCombination: "Eba with Efo-riru",
     price: 7000,
+    soldOut: false,
   },
 ];
 
