@@ -35,6 +35,7 @@ const meals = [
 ];
 
 function Menu() {
+  const numMeals = meals.length;
   return (
     <div id="menu">
       <div className="mx-auto mt-[150px] max-w-screen-lg px-4 text-stone-700 md:mt-[100px]">
@@ -44,11 +45,13 @@ function Menu() {
           </h1>
         </div>
         <div className="container mx-auto">
-          <div className="  grid grid-cols-1 gap-8 md:grid-cols-2">
-            {meals.map((meal) => (
-              <Meal mealObj={meal} key={meal.mealName} />
-            ))}
-          </div>
+          {numMeals && (
+            <div className="  grid grid-cols-1 gap-8 md:grid-cols-2">
+              {meals.map((meal) => (
+                <Meal mealObj={meal} key={meal.mealName} />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
