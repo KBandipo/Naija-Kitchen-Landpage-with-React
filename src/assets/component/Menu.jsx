@@ -6,7 +6,7 @@ const meals = [
     mealName: "Amala",
     mealCombination: "Amala ewedu and gbegiri",
     price: 7000,
-    soldOut: false,
+    soldOut: true,
   },
   {
     photoname: "/images/Iyan with egusi soup.jpg",
@@ -14,7 +14,7 @@ const meals = [
     mealName: "Pounded yam",
     mealCombination: "Pounded yam with egusi soup",
     price: 10000,
-    soldOut: false,
+    soldOut: true,
   },
   {
     photoname: "/images/Ekuru.jpg",
@@ -22,7 +22,7 @@ const meals = [
     mealName: "Ekuru",
     mealCombination: "Ekuru with stew",
     price: 8000,
-    soldOut: false,
+    soldOut: true,
   },
   {
     photoname: "/images/eba.jpg",
@@ -45,12 +45,16 @@ function Menu() {
           </h1>
         </div>
         <div className="container mx-auto">
-          {numMeals && (
+          {numMeals ? (
             <div className="  grid grid-cols-1 gap-8 md:grid-cols-2">
               {meals.map((meal) => (
                 <Meal mealObj={meal} key={meal.mealName} />
               ))}
             </div>
+          ) : (
+            <p className="sm:text-center">
+              We're still working on our menu. Please come back later :)
+            </p>
           )}
         </div>
       </div>
