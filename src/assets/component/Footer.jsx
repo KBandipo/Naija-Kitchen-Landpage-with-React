@@ -5,7 +5,7 @@ function Footer() {
   const closeHour = 21;
   const isOpen = hour >= openHour && hour <= closeHour;
   return (
-    <footer className="text-[ #e6eff9] mx-auto bg-[#004200] ">
+    <footer className="text-[ #e6eff9] mx-auto h-[8vh] bg-[#004200] ">
       <h1 className="text-center">
         Local Time {presentTime}, {new Date().toDateString()},
         {isOpen ? (
