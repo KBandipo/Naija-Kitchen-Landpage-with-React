@@ -2,7 +2,7 @@ function Contact() {
   return (
     <section className="mx-auto bg-[#004200] py-8 text-[#e6eff9] sm:py-16">
       <div className="container mx-auto">
-        <h2 className="mb-2 mb-4 pb-[10px] text-2xl font-bold">Contact Us</h2>
+        <h2 className="mb-4 pb-[10px] text-2xl font-bold">Contact Us</h2>
         <form id="contact">
           <div className="mb-4">
             <label htmlFor="name" className="block">
